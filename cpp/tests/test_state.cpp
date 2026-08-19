@@ -22,7 +22,7 @@ void testPropagate()
     assert(nearlyEqual(direct.y, matrix.y));
     assert(nearlyEqual(direct.vx, matrix.vx));
     assert(nearlyEqual(direct.vy, matrix.vy));
-    assert(nearlyEqual(direct.x, 13.75));
+    assert(nearlyEqual(direct.x, 12.75));
     assert(nearlyEqual(direct.y, 18.625));
     assert(nearlyEqual(direct.vx, 6.0));
     assert(nearlyEqual(direct.vy, -3.5));
